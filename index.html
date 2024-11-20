@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>E-learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="profile.html">My Profile</a></li>
+        <li><a href="progress.html">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Banner Section -->
+    <section id="home">
+      <h2>Welcome to the E-learning Platform</h2>
+      <p>Enhance your skills with our variety of online courses!</p>
+      
+    </section>
+
+
+    <!-- Courses Section -->
+    <section id="courses">
+      <h2>Our Courses</h2>
+      <div class="course-list">
+        <div class="course" onclick="viewCourse('JavaScript Basics')">
+          <h3>JavaScript Basics</h3>
+          <p>Learn the fundamentals of JavaScript programming.</p>
+        
+          <div id="button"><a href="course.html">Learn More</a></div>
+        </div>
+        <div class="course" onclick="viewCourse('HTML & CSS')">
+          <h3>HTML & CSS</h3>
+          <p>Build beautiful websites using HTML and CSS.</p>
+          
+          <div id="button"><a href="cou.html">Learn More</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Contact us at support@elearning.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
